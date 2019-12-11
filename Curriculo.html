@@ -7,7 +7,11 @@
 		/*CSS para impressão*/
 		@media print {
 			.page-break { 
-				page-break-before: always; 
+				page-break-before: always;
+			}
+			p{
+				orphans: 3;
+				widows: 3;
 			}
 		}
 		body{

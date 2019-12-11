@@ -6,15 +6,19 @@
 		<style type="text/css">
 		/*CSS para impressão*/
 		@media print {
+			@page rotated {
+				size: A4 landscape;
+			        margin: 3cm;
+		      	     }
 			.page-break { 
 				page-break-before: always;
 			}
 		}
 		body{
 			font-family: verdana;
-			width: 1190px;
+			/* width: 1190px;
 			height: 1684px;
-			margin: 10px;
+			margin: 10px; */
 		}
 		h1,h2,h3,h4,hr{
 			color: #4169E1;
